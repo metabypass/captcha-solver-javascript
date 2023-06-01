@@ -10,7 +10,7 @@ to install these packages use npm install metabypass-captcha-solver
 for using this package first import metabypass-captcha-solver
 const solver = require("metabypass-captcha-solver");
 
-#1.authentication
+**1.authentication**
 to authenticate and get the token first create the below object with your credentials
 
 
