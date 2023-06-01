@@ -1,0 +1,25 @@
+{
+  "name": "metabypass-captcha-solver",
+  "version": "1.0.0",
+  "description": "Solve any type of captcha effortlessly with our AI-powered solutions. From text-based captchas to Google reCAPTCHA and hCAPTCHA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metabypass/metabypass-captcha-solver-javascript.git"
+  },
+  "keywords": [
+    "captcha",
+    "hCaptcha",
+    "reCaptcha",
+    "solving"
+  ],
+  "author": "METABYPASS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/metabypass/metabypass-captcha-solver-javascript/issues"
+  },
+  "homepage": "https://github.com/metabypass/metabypass-captcha-solver-javascript#readme"
+}
