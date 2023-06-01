@@ -10,7 +10,7 @@ to install these packages use npm install metabypass-captcha-solver
 for using this package first import metabypass-captcha-solver
 const solver = require("metabypass-captcha-solver");
 
-**1.authentication**
+# 1.authentication
 
 
 to authenticate and get the token first create the below object with your credentials
@@ -33,7 +33,7 @@ const token = await solver.getToken(user);
 
 then saved the token in file or anywhere else for use in another function
 
-###### 2-text captcha
+# 2-text captcha
 
 
 for solving text captcha use captchaSolver from solver object
@@ -50,7 +50,7 @@ max_len:0
 
 const result = await solver.captchaSolver(token, data);
 
-#3-reCaptcha version 2
+# 3-reCaptcha version 2
  
 const data = {
     url: "", define protocol http or https
@@ -66,7 +66,7 @@ const data = {
  
  const result = await solver.getRecaptchaResult(token, recaptchaId);
   
- #4-reCatpcha version 3
+ # 4-reCatpcha version 3
  
  
  const data = {
