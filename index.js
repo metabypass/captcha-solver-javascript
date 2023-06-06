@@ -1,5 +1,3 @@
-const solver  = require("./lib/metabypass");
+const metabypass = require("./lib/metabypass");
 
-module.exports = solver
-
-console.log(solver)
+module.exports = metabypass;

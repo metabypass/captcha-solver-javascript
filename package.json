@@ -1,5 +1,5 @@
 {
-  "name": "metabypass-captcha-solver",
+  "name": "metabypass",
   "version": "1.0.0",
   "description": "Solve any type of captcha effortlessly with our AI-powered solutions. From text-based captchas to Google reCAPTCHA and hCAPTCHA",
   "main": "index.js",
