@@ -1,6 +1,6 @@
 {
   "name": "metabypass",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Solve any type of captcha effortlessly with our AI-powered solutions. From text-based captchas to Google reCAPTCHA and hCAPTCHA",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
     "url": "https://github.com/metabypass/metabypass-captcha-solver-javascript/issues"
   },
   "homepage": "https://github.com/metabypass/metabypass-captcha-solver-javascript#readme",
-  "devDependencies": {
+  "dependencies": {
     "node-fetch": "^2.6.11"
   }
 }
