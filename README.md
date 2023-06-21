@@ -40,15 +40,15 @@ then saved the token in file or anywhere else for use in another function
 for solving text captcha use captchaSolver from solver object
 pass token and data 
 ```javascript
+const image = await soler.getBase64LocalCaptcha('local image url)
 
+const image = await solver.getBase64Encoded('external image url') 
 data ={
-image:(string) base64 you can use solver.getBase64Encoded('image url') //external image,
+image: image
 numeric:0,
 min_len:0,
 max_len:0
 }
-
-
 const result = await solver.captchaSolver(token, data);
 ```
 
@@ -77,5 +77,26 @@ const data = {
   };
   const result = await solver.getRecaptchaResponse(token, data);
 ```
- 
-
+# 5-Example for captcha
+```javascript
+const solveCaptcha = async()=>{
+  const user = {
+  grant_type: "password", // Dont change it
+  client_id: ",
+  client_secret: ",
+  username: "",
+  password: "",
+};
+const token = await solver.getToken(user);
+// use one of below function for base64 <b>getBase64LocalCaptcha</b> for local image and <b>getBase64Encoded</b> for external image
+const image = await soler.getBase64LocalCaptcha('local image url)
+const image = await solver.getBase64Encoded('external image url') 
+data ={
+image: image
+numeric:0,
+min_len:0,
+max_len:0
+}
+const result = await solver.captchaSolver(token, data);
+}
+```
