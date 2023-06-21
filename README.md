@@ -43,7 +43,7 @@ pass token and data
 // use one of below function for base64 <b>getBase64LocalCaptcha</b> for local image and <b>getBase64Encoded</b> for external image
 const localImage = await soler.getBase64LocalCaptcha('local image url)
 const exernalImage = await solver.getBase64Encoded('external image url') 
-data ={
+const data ={
 image: externalImage // if you want you can use localImage
 numeric:0,
 min_len:0,
