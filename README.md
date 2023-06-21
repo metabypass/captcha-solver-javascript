@@ -6,8 +6,9 @@ Free demo (no credit card required) -> https://app.metabypass.tech/application
 
 
 to install these packages use 
-
+```javascript
 npm install metabypass
+```
 
 for using this package first import metabypass
 ```javascript
