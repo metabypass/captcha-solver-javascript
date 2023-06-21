@@ -10,15 +10,16 @@ to install these packages use
 npm install metabypass
 
 for using this package first import metabypass
-
+```javascript
 const solver = require("metabypass");
+````
 
 # 1.authentication
 
 
-to authenticate and get the token first create the below object with your credentials
+to authenticate and obtain the token first create the below object with your credentials and use getToken function from solver object
 
-
+```javascript
 const user = {
   grant_type: "password", // Dont change it
   client_id: ",
@@ -26,12 +27,8 @@ const user = {
   username: "",
   password: "",
 };
-
-
-use getToken function from solver object
-
-
 const token = await solver.getToken(user);
+```
 
 
 then saved the token in file or anywhere else for use in another function
