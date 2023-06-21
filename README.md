@@ -44,9 +44,12 @@ pass token and data
 
 
 data ={
-image:(string) base 64 you can use solver.getBase64Encoded('image url')
-numeric:0
+image:(string) base 64 you can use solver.getBase64Encoded('image url'),
+
+numeric:0,
+
 min_len:0,
+
 max_len:0
 }
 
