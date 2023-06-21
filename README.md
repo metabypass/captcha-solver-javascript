@@ -5,10 +5,13 @@ Free demo (no credit card required) -> https://app.metabypass.tech/application
 
 
 
-to install these packages use npm install metabypass-captcha-solver
+to install these packages use 
 
-for using this package first import metabypass-captcha-solver
-const solver = require("metabypass-captcha-solver");
+npm install metabypass
+
+for using this package first import metabypass
+
+const solver = require("metabypass");
 
 # 1.authentication
 
